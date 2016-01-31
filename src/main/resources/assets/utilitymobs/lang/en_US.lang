@@ -1,0 +1,40 @@
+
+entity.UtilityMobs.UMFishHook.name=Fish Hook
+
+entity.UtilityMobs.GenericGolem.name=Golem
+
+entity.UtilityMobs.AnvilGolem.name=Anvil Golem
+entity.UtilityMobs.ChestEnderGolem.name=Ender Chest Golem
+entity.UtilityMobs.ChestGolem.name=Chest Golem
+entity.UtilityMobs.ChestTrappedGolem.name=Trapped Chest Golem
+entity.UtilityMobs.FurnaceGolem.name=Furnace Golem
+entity.UtilityMobs.JukeboxGolem.name=Jukebox Golem
+entity.UtilityMobs.LanternGolem.name=Jack o'Lantern Golem
+entity.UtilityMobs.WorkbenchGolem.name=Crafting Table Golem
+
+entity.UtilityMobs.ArmorGolem.name=Armor Golem
+entity.UtilityMobs.BoundSoul.name=Bound Soul
+entity.UtilityMobs.GildedGolem.name=Gilded Golem
+entity.UtilityMobs.MelonGolem.name=Melon Golem
+entity.UtilityMobs.ObsidianGolem.name=Obsidian Golem
+entity.UtilityMobs.Scarecrow.name=Scarecrow
+entity.UtilityMobs.SteamGolem.name=Steam Golem
+entity.UtilityMobs.StoneGolem.name=Stone Golem
+entity.UtilityMobs.StoneLargeGolem.name=Large Stone Golem
+entity.UtilityMobs.UMIronGolem.name=Iron Golem
+entity.UtilityMobs.UMSnowGolem.name=Snow Golem
+
+entity.UtilityMobs.BrickTurret.name=Stone Brick Turret
+entity.UtilityMobs.FireballTurret.name=Fireball Turret
+entity.UtilityMobs.FireTurret.name=Fire Turret
+entity.UtilityMobs.GatlingTurret.name=Gatling Turret
+entity.UtilityMobs.GhastTurret.name=Ghast Turret
+entity.UtilityMobs.KillerTurret.name=Killer Turret
+entity.UtilityMobs.ObsidianTurret.name=Obsidian Turret
+entity.UtilityMobs.ShotgunTurret.name=Shotgun Turret
+entity.UtilityMobs.SniperTurret.name=Sniper Turret
+entity.UtilityMobs.SnowTurret.name=Snow Turret
+entity.UtilityMobs.StoneTurret.name=Stone Turret
+entity.UtilityMobs.VolleyTurret.name=Volley Turret
+
+entity.UtilityMobs.StoneColossus.name=Stone Colossus

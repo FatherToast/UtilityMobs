@@ -1,0 +1,78 @@
+3.1.1
+    - Removed Animation API (caused crash on server start).
+    - Golems can no longer be "solid" on dedicated servers (kicks for flying).
+3.1.0
+    - New golem class: colossal golems.
+      - Can be ridden by you and your smaller golems.
+      - Uses Animation API for a little animation.
+    - Added stone, obsidian, and armor colossal golems.
+    - Added steam and melon golems.
+    - Added jukebox and jack o'lantern block golems.
+    - Creepers now rarely drop creeper heads (used to build colossal golems).
+    - Golems holding fishing rods now use them to reel in targets.
+    - Fixed several cases of shears not working on certain golems.
+3.0.0
+    - Rewritten the network system (or lack thereof). Target lists are now determined by the clients, not servers.
+      - Fixes several bugs related to using target/permission books on servers.
+    - Mob target list is now based on string entity ids instead of classes (will still read classes).
+    - Mob target list can now be edited via book writing.
+    - Default player targeting is now based on the mob target list (as Player) instead of server config.
+    - Unfriendly golems are now targeted by default.
+    - Added replacement versions of the vanilla utility mobs, so they will use your target lists.
+    - Shears can now be used to destroy any golem from this mod (sneak right click).
+    - Adjusted the stats of some golems.
+    - Rewritten turret upgrade system.
+      - Allows vanilla projectiles to be affected by upgrades.
+      - Non-arrow turrets (snow, fireball, and ghast) now accept slowness (slimeball) and poison (spider eye) upgrades.
+      - Fireball turrets additionally also accept exlosion (gunpowder) and fire explosion (fire charge) upgrades.
+      - Shotgun, volley, killer, and gatling turrets can now multihit.
+      - Reduced damage-per-arrow for shotgun and volley turrets.
+      - Explosion upgrade's explosion size reduced from 2 to 1.
+      - ??? upgrade has been toned down a bit.
+    - Fixed scarecrow item bug.
+    - Bound soul no longer drops gold, in accordance with its current recipe.
+    - Minor visual tweaks.
+    - Trapped chest golems now are solid while sitting.
+    - Fixed possible bug preventing sit command use on block golems.
+    - Golems no longer forget they were sitting when their owner logs out or changes dimension.
+2.1
+    - Golems should now be better about remembering their owner!
+    - Block golems are now usable in SMP.
+    - Anvil golems no longer have unlimited uses (identical to placed anvils).
+    - The property "hostile" should work again.
+    - Added new property: "attack_unknown_players"! Server-wide property that sets golems' default aggression towards players.
+    - Made the turret manual make it a little more obvious which turrets require nether fences.
+    - Fixed explosion effects bug.
+    - Arrows fired by golems should no longer be able to damage entities that aren't targeted.
+2.0.1
+    - Golems now use mod entity IDs (unlimited entity IDs)!
+2.0
+    - Rewritten golem AI system!
+    - Golems now use a new targeting and permissions system, dictated by their owner and targeting books.
+    - Added block golems.
+      - Workbench, furnace, anvil, and chest (normal, trapped, and ender).
+    - Added fire and volley turrets. Renamed fire turret to fireball turret.
+    - Added Block Golem Manual, Upgrade Manual, and the targeting books.
+    - Added drop chance for skulls from skeletons and recipe to turn wither skulls to skulls (to make block golems).
+    - From now on, all manuals will update themselves automatically.
+    - Turret upgrade bug fixed.
+    - Turrets with different default ranges should work properly.
+2.0pre
+    - SMP support!
+    - Not nearly as buggy!
+1.1pre
+    - Now requires Minecraft Forge instead of ModLoader!
+    - Sorta SMP support!
+    - Buggy as crap.
+    - Complete code rewrite!
+      - This mod should be easier to improve and update now.
+      - The source code should now make sense to people other than me!
+1.1
+    - Turrets and golems no longer attack villagers!
+    - Obsidian turrets and golems are now immune to fire.
+1.0 (again)
+    - Fixed armor golem's inability to be built normally.
+    - Fixed ability to build iron golems when both iron golems and armor
+      golems were disabled.
+1.0
+    - First release.
